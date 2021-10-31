@@ -1,0 +1,36 @@
+{
+    "compilerOptions": {
+      "allowJs": true,
+      "allowSyntheticDefaultImports": true,
+      "baseUrl": ".",
+      "checkJs": false,
+      "esModuleInterop": false,
+      "lib": [
+        "es2015.iterable"
+      ],
+      "module": "commonjs",
+      "moduleResolution": "node",
+      "noImplicitAny": false,
+      "outDir": "./dist",
+      "paths": {
+        "*": [
+          "node_modules/*",
+          "src/types/*"
+        ]
+      },
+      "skipLibCheck": true,
+      "sourceMap": true,
+      "target": "ES2016"
+    },
+    "exclude": [
+      "dist",
+      "**/*.spec.ts",
+      "**/*xxx*"
+    ],
+    "include": [
+      "src"
+    ],
+    "types": [
+      "src/types"
+    ]
+  }
